@@ -1,0 +1,35 @@
+Ctrl + J: Abrir y cerrar terminal
+Ctrl + D: Seleccionar la siguiente ocurrencia
+Ctrl + Shift + L: Seleccionar todas las ocurrencias
+Ctrl + L: Seleccionar la línea actual
+Shift + Abajo: Seleccionar líneas hacia abajo
+Shift + Arriba: Seleccionar líneas hacia arriba
+Tecla End: Ir al final de la línea
+Tecla Home: Ir al inicio de la línea
+Fn + Derecha: Ir al final de la línea (sin tecla End)
+Fn + Izquierda: Ir al inicio de la línea (sin tecla Home)
+Fn + Arriba: Ir al inicio del archivo
+Fn + Abajo: Ir al final del archivo
+Alt + Arriba: Mover línea hacia arriba
+Alt + Abajo: Mover línea hacia abajo
+Alt + Shift + Abajo: Duplicar la línea actual hacia abajo
+Alt + Shift + Arriba: Duplicar la línea actual hacia arriba
+Ctrl + Retroceso: Borrar palabra a la izquierda
+Ctrl + Suprimir: Borrar palabra a la derecha
+Ctrl + Shift + K: Borrar la línea actual
+Ctrl + Alt + Abajo: Insertar cursor debajo
+Ctrl + Alt + Arriba: Insertar cursor arriba
+Alt + Clic: Insertar múltiples cursores
+Ctrl + P: Buscar un archivo
+Ctrl + F: Buscar en el archivo
+Ctrl + S: Guardar archivo
+Ctrl + W: Cerrar archivo
+Ctrl + K + W: Cerrar todos los archivos
+Ctrl + Shift + T: Reabrir el último archivo cerrado
+Ctrl + Shift  + P: Abrir paleta de comandos
+Ctrl + B: Abrir y cerrar barra lateral
+Ctrl + Shift + X: Abrir pestaña de extensiones
+Ctrl + Shift + E: Abrir pestaña del explorador de archivos
+Ctrl + Shift + G: Abrir pestaña de control de versiones
+Ctrl + Shift + V: Previsualizar markdown
+Ctrl + K + V: Previsualizar markdown al lado
