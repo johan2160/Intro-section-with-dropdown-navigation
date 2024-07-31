@@ -1,0 +1,15 @@
+// variables
+$background: #fafafa;
+$primary: #000000;
+$secondary: #696969;
+$white: #fff;
+
+// mixins
+@mixin btn {
+  padding: 0.688rem;
+  border: 1px solid $secondary;
+  background: $primary;
+  color: $white;
+  border-radius: 0.938rem;
+  font-size: 1rem;
+}
