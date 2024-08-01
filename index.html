@@ -10,53 +10,55 @@
 </head>
 
 <body>
-  <nav>
-    <img src="images/logo.svg" alt="Snap Logo" class="nav__logo">
-    <div class="nav__hamburger">
-      <span class="nav__hamburger-line"></span>
-      <span class="nav__hamburger-line"></span>
-      <span class="nav__hamburger-line"></span>
+  <nav class="nav">
+    <div class="nav__wrapper">
+      <img src="images/logo.svg" alt="Snap Logo" class="nav__logo">
+      <img src="images/icon-menu.svg" class="nav__menu" alt="Menu icon">
     </div>
-    <ul>
-      <li>Features
-        <ul>
-          <div>
-            <img src="images/icon-todo.svg" alt="">
-            <li>Todo List</li>
-          </div>
-          <div>
-            <img src="images/icon-calendar.svg" alt="">
-            <li>Calendar</li>
-          </div>
-          <div>
-            <img src="images/icon-reminders.svg" alt="">
-            <li>Reminders</li>
-          </div>
-          <div>
-            <img src="images/icon-planning.svg" alt="">
-            <li>Planning</li>
-          </div>
+    <ul class="nav__items-container">
+      <img src="images/icon-close-menu.svg" alt="Close menu icon" class="nav__close-menu">
+      <li class="nav__item">Features
+        <ul class="nav__subitems-container">
+          <li class="nav__subitem-wrapper">
+            <img src="images/icon-todo.svg" alt="" class="nav__subitem-img">
+            <span class="nav__subitem-text">Todo List</span>
+          </li>
+          <li class="nav__subitem-wrapper">
+            <img src="images/icon-calendar.svg" alt="" class="nav__subitem-img">
+            <span class="nav__subitem-text">Calendar</span>
+          </li>
+          <li class="nav__subitem-wrapper">
+            <img src="images/icon-reminders.svg" alt="" class="nav__subitem-img">
+            <span class="nav__subitem-text">Reminders</span>
+          </li>
+          <li class="nav__subitem-wrapper">
+            <img src="images/icon-planning.svg" alt="" class="nav__subitem-img">
+            <span class="nav__subitem-text">Planning</span>
+          </li>
         </ul>
       </li>
-      <li>Company
-        <ul>
-          <li>History</li>
-          <li>Our Team</li>
-          <li>Blog</li>
+      <li class="nav__item">Company
+        <ul class="nav__subitems-container">
+          <li class="nav__subitem-text">History</li>
+          <li class="nav__subitem-text">Our Team</li>
+          <li class="nav__subitem-text">Blog</li>
         </ul>
       </li>
-      <li>Careers</li>
-      <li>About</li>
-      <div>
-        <button>Login</button>
-        <button>Register</button>
-      </div>
+      <li class="nav__item">Careers</li>
+      <li class="nav__item">About</li>
+      <li class="nav__item-buttons">
+        <button class="nav__button" id="login-btn">Login</button>
+        <button class="nav__button">Register</button>
+      </li>
     </ul>
+
   </nav>
   <main>
     <section class="hero">
-      <img src="images/image-hero-mobile.png" alt="Hero image of a man holding a laptop" class="hero__img">
-      <img src="images/image-hero-desktop.png" alt="Hero image of a man holding a laptop" class="hero__img">
+      <!-- <img src="images/image-hero-mobile.png" alt="Hero image of a man holding a laptop" class="hero__img"
+      id="hero__img-mobile"> -->
+      <img src="images/image-hero-desktop.png" alt="Hero image of a man holding a laptop" class="hero__img"
+        id="hero__img-desktop">
       <h1 class="hero__title">Make remote work</h1>
       <p class="hero__subtitle">Get your team in sync, no matter your location. Streamline processes, create team
         rituals, and watch productivity soar.</p>
