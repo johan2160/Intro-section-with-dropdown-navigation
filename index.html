@@ -13,11 +13,12 @@
   <nav class="nav">
     <div class="nav__wrapper">
       <img src="images/logo.svg" alt="Snap Logo" class="nav__logo">
-      <img src="images/icon-menu.svg" class="nav__menu" alt="Menu icon">
+      <img src="images/icon-menu.svg" class="nav__menu menu-icon" alt="Menu icon">
     </div>
-    <ul class="nav__items-container">
-      <img src="images/icon-close-menu.svg" alt="Close menu icon" class="nav__close-menu">
-      <li class="nav__item">Features
+    <ul class="nav__items-container" id="navigation">
+      <img src="images/icon-close-menu.svg" alt="Close menu icon" class="nav__close-menu close-menu-icon">
+      <li class="nav__item nav-item-parent">Features
+        <img id="toggle-subitems" src="images/icon-arrow-down.svg" alt="SVG for opening subitems">
         <ul class="nav__subitems-container">
           <li class="nav__subitem-wrapper">
             <img src="images/icon-todo.svg" alt="" class="nav__subitem-img">
@@ -37,7 +38,8 @@
           </li>
         </ul>
       </li>
-      <li class="nav__item">Company
+      <li class="nav__item nav-item-parent">Company
+        <img id="toggle-subitems" src="images/icon-arrow-down.svg" alt="SVG for opening subitems">
         <ul class="nav__subitems-container">
           <li class="nav__subitem-text">History</li>
           <li class="nav__subitem-text">Our Team</li>
@@ -55,10 +57,10 @@
   </nav>
   <main>
     <section class="hero">
-      <!-- <img src="images/image-hero-mobile.png" alt="Hero image of a man holding a laptop" class="hero__img"
-      id="hero__img-mobile"> -->
-      <img src="images/image-hero-desktop.png" alt="Hero image of a man holding a laptop" class="hero__img"
-        id="hero__img-desktop">
+      <img src="images/image-hero-mobile.png" alt="Hero image of a man holding a laptop" class="hero__img"
+        id="hero__img-mobile" width="30">
+      <!-- <img src="images/image-hero-desktop.png" alt="Hero image of a man holding a laptop" class="hero__img"
+        id="hero__img-desktop"> -->
       <h1 class="hero__title">Make remote work</h1>
       <p class="hero__subtitle">Get your team in sync, no matter your location. Streamline processes, create team
         rituals, and watch productivity soar.</p>
@@ -76,6 +78,7 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">johandev21</a>.
   </div>
+  <script src="script.js"></script>
 </body>
 
 </html>
