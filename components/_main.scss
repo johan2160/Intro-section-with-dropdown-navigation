@@ -1,3 +1,59 @@
 #hero__img-desktop {
   display: none;
 }
+
+main {
+  height: 100vh;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3.2rem;
+
+  &__img {
+    width: 100%;
+    max-width: 26.875rem;
+    margin-bottom: 3rem;
+  }
+  
+  &__title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  &__subtitle {
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: $secondary;
+    max-width: 30rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  &__btn {
+    @include btn;
+    padding: .8rem 1.2rem;
+    font-weight: 550;
+    font-size: 1.05rem;
+    border: none;
+  }
+}
+
+.clients {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+
+  &__img {
+    width: 5.25rem;
+  }
+
+  #client-audiophile {
+    width: 3.6rem;
+  }
+}
