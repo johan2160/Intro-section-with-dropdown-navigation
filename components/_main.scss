@@ -17,6 +17,12 @@ main {
     max-width: 26.875rem;
     margin-bottom: 3rem;
   }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   
   &__title {
     font-size: 2rem;
