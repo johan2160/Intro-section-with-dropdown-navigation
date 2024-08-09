@@ -1,0 +1,48 @@
+@media screen and (min-width: 75rem) {
+  #hero__img-desktop {
+    display: block;
+  }
+
+  #hero__img-mobile {
+    display: none;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    max-width: 75rem;
+    gap: 10rem;
+
+    .wrapper {
+      max-width: 33rem;
+      align-self: center;
+      align-items: start;
+      position: relative;
+      top: -2.5rem;
+    }
+
+    &__title {
+      font-size: 5rem;
+      margin-bottom: 3rem;
+      text-align: left;
+    }
+    
+    &__subtitle {
+      text-align: left;
+      margin-bottom: 2.5rem;
+    }
+  }
+
+  .clients {
+    position: relative;
+    left: -23.8rem;
+    top: -7.5rem;
+  }
+}
