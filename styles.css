@@ -117,6 +117,11 @@ main {
   max-width: 26.875rem;
   margin-bottom: 3rem;
 }
+.hero .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .hero__title {
   font-size: 2rem;
   margin-bottom: 1.5rem;
@@ -167,4 +172,46 @@ main {
 .attribution a {
   color: #696969;
   cursor: pointer;
+}
+
+@media screen and (min-width: 75rem) {
+  #hero__img-desktop {
+    display: block;
+  }
+  #hero__img-mobile {
+    display: none;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    max-width: 75rem;
+    gap: 10rem;
+  }
+  .hero .wrapper {
+    max-width: 33rem;
+    align-self: center;
+    align-items: start;
+    position: relative;
+    top: -2.5rem;
+  }
+  .hero__title {
+    font-size: 5rem;
+    margin-bottom: 3rem;
+    text-align: left;
+  }
+  .hero__subtitle {
+    text-align: left;
+    margin-bottom: 2.5rem;
+  }
+  .clients {
+    position: relative;
+    left: -23.8rem;
+    top: -7.5rem;
+  }
 }/*# sourceMappingURL=styles.css.map */
